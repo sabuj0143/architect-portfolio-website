@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ---------------------- 
+        Header start
+---------------------------- */
+header{
+    width: 100%;
+    height: 140vh;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-bottom: 50px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #131313;
+}
+.nav-list{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    gap: 20px;
+    color: #424242;
+    margin-top: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.main-container{
+    margin-top: 20px;
+    text-align: center;
+}
+.main-title{
+    font-size: 64px;
+}
+.main-container p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btn-primary{
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color:#FF900E;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* -------------------------
+         Banner Img Start
+--------------------------------- */
+.banner img{
+    width: 700px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 340px;
+}
+
+/* --------------------
+         Quick start
+---------------------------- */
+.quick-container{
+    margin-top: 80px;
+    display: flex;
+}
+.quicks{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 8px;
+    margin-left: 40px;
+    gap: 10px;
+    padding: 40px;
+}
+/* .quicks img{
+    font-size: 50px;
+} */
+.quick-titles{
+    width: 50%;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.quick-title{
+    font-size: 45px;
+}
+.quick-description{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+/* -----------------------------
+     features-container start 
+-------------------------------- */
+
+.features-container{
+    width: 100%;
+    height: 1200px;
+    margin-top: 30px;
+    display: flex;
+}
+.features{
+    margin: 30px;
+}
+.feat-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.feat-description{
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 20px;
+}
+/* ----------------
+     Version start
+  -------------- */
+.version-title{
+   font-size: 20px;
+   font-weight: 700;
+   color: #131313;
+   padding: 15px;
+}
+.version-description{
+    font-size: 16px;
+    color: #727272;
+    padding: 15px;
+}
+.version{
+    width: 580px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.06);
+    border: 0 solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.photo{
+    width: 700px;
+    height: 982px;
+    border-radius: 8px;
+}
+.experience{
+    width: 250px;
+    height: 109px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color:#FF900E;
+    border: none;
+    border-radius: 8px;
+}
+/* ---------------
+    Facts  Start
+------------------ */
+.fact-title{
+    font-size: 45px;
+    color: #131313;
+    font-weight: 600px;
+}
+.fact-description{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 20px;
+}
+.facts{
+    margin-left: 50px;
+}
+
+/* --------------
+     Icons Start
+------------------- */
+.icons-container{
+    margin-top: 100px; 
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    border: 1px solid#FF900E ;
+    font-size: 30px;
+}
+.icons img{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.icon-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.icon-descriptin{
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ----------------------
+    Sponspors Start
+------------------------- */
+.sponspors-container{
+    margin-top: 130px;
+}
+.spons{
+    
+    text-align: center;
+}
+.spons-title{
+    font-size: 45px;
+    color: #131313;
+}
+.spons-description{
+    font-size: 16px;
+    color: #727272;
+    padding-top: 20px;
+}
+/* ----------------
+   Sponsors Start
+ --------------- */
+ .sponsors-container{
+    margin-top: 101px;
+ }
+ .sponsor{
+    display: flex;
+    justify-content: space-around;
+ }
+/* -----------------
+     Footer Start 
+---------------------- */
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 170px;
+    margin-bottom: 200px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+footer p{
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* ----------------
+     Mobile Device 
+ ----------------- */
+ @media screen and (max-width: 576px) {
+    header{
+        width: 100%;
+        height: 100vh;
+       flex-direction: column;
+       text-align: start;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    .nav-list{
+     flex-direction: column;
+    }
+    .main-title{
+        font-size: 30px;
+    }
+    .main-container p{
+        font-size: 10px;
+    }
+    .banner img{
+        width: 400px;
+        height: 200px;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    .quick-container{
+        flex-direction: column;
+    }
+    .quicks{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+        gap: 15px;
+    }
+    .quick-titles{
+        width: 100%;
+        margin-top: 0px 40px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .photo{
+        display: none;
+    }
+    .facts-container{
+        margin-top: 50px;
+    }
+    .facts{
+        text-align: center;
+        padding-right: 50px;
+    }
+    .fact-title{
+        padding-right: 50px;
+    }
+    .icons-container{
+        margin-top: 50px;
+    }
+    .icons{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .sponsor{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+ }
